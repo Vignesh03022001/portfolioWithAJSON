@@ -1,5 +1,6 @@
 # portfolioWithAJSON
 Building the Angular Portfolio Webpage that is filled by the JSON that holds entire data.
+```JSON
 {
   "name": "Shri Vignesh P",
   "designation": "Software Trainee",
@@ -71,3 +72,4 @@ Building the Angular Portfolio Webpage that is filled by the JSON that holds ent
     }
   ]
 }
+```
