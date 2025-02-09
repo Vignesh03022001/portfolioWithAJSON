@@ -2,58 +2,78 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
 
-## Development server
-
-To start a local development server, run:
-
-```bash
-ng serve
+# portfolioWithAJSON
+Building the Angular Portfolio Webpage that is filled by the JSON that holds entire data.
+```JSON
+{
+  "name": "Shri Vignesh P",
+  "designation": "Software Trainee",
+  "contact": {
+    "address": "1/104, Gandhi Nagar, Thirumandurai, Perambalur",
+    "phone": "9232392933",
+    "email": "user@gmail.com"
+  },
+  "aboutMe": "A passionate software developer with experience in Java and React.",
+  "experience": [
+    {
+      "jobTitle": "SDE",
+      "companyName": "Google",
+      "location": "Bangalore, India",
+      "workDuration": "Mar 2022 - Present",
+      "description": [
+        "Developed scalable web applications using React and Java.",
+        "Optimized PostgreSQL queries for better performance."
+      ]
+    },
+    {
+      "jobTitle": "SDE Intern",
+      "companyName": "Google",
+      "location": "Bangalore, India",
+      "workDuration": "Mar 2020 - Feb 2022",
+      "description": [
+        "Worked on frontend development with Angular.",
+        "Assisted in backend API development."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Computer Science",
+      "institution": "XYZ University",
+      "studyDuration": "2018 - 2022"
+    }
+  ],
+  "techAndTools": [
+    "Java",
+    "React",
+    "PostgreSQL",
+    "Spring Boot",
+    "Docker"
+  ],
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "timeline": "Jan 2024",
+      "technologiesUsed": [
+        "React",
+        "CSS",
+        "Node.js"
+      ],
+      "description": "A personal portfolio showcasing my projects and skills.",
+      "repoLink": "https://github.com/user/portfolio",
+      "liveDemoLink": "https://user.github.io/portfolio"
+    },
+    {
+      "title": "E-commerce Platform",
+      "timeline": "Dec 2023",
+      "technologiesUsed": [
+        "Spring Boot",
+        "PostgreSQL",
+        "Angular"
+      ],
+      "description": "Developed an e-commerce platform with user authentication.",
+      "repoLink": "https://github.com/user/ecommerce"
+    }
+  ]
+}
 ```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
